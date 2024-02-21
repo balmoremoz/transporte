@@ -6,4 +6,6 @@ import com.example.transporte.entities.ConexionEntity;
 
 public interface ConexionProvider {
 	List<ConexionEntity> getAllConexiones();
+	
+	List<String> getRutaCostoMenor();
 }

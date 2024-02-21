@@ -1,0 +1,14 @@
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (1, 'Vitoria', 'Zaragoza', 4);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (2, 'Vitoria', 'Teruel', 6);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (3, 'Vitoria', 'Madrid', 8);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (4, 'Zaragoza', 'Teruel', 2);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (5, 'Zaragoza', 'Lleida', 2);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (6, 'Teruel', 'Madrid', 3);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (7, 'Teruel', 'Lleida', 5);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (8, 'Teruel', 'Alicante', 7);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (9, 'Lleida', 'Valencia', 4);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (10, 'Lleida', 'Segovia', 8);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (11, 'Alicante', 'Valencia', 3);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (12, 'Alicante', 'Albacete', 7);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (13, 'Valencia', 'Albacete', 6);
+INSERT INTO conexion (id, ciudadOrigen, ciudadDestino, costo) VALUES (14, 'Segovia', 'Albacete', 4);

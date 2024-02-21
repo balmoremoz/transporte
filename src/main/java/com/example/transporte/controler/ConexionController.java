@@ -20,4 +20,10 @@ public class ConexionController {
 	public ResponseEntity<List<ConexionEntity>> getAllConexiones(){
 		return new ResponseEntity<>(conexionProvider.getAllConexiones(),HttpStatus.OK);
 	}
+	
+	@GetMapping("/costoMenor")
+	public ResponseEntity<List<String>> getCostoMenor(){
+		return new ResponseEntity<>(conexionProvider.getRutaCostoMenor(),HttpStatus.OK);
+	}
+	
 }
